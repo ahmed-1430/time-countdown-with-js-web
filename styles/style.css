@@ -98,3 +98,26 @@ input::-webkit-outer-spin-button {
   outline: none;
   box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
 }
+
+
+@media screen and (max-width: 576px) {
+    .count-down-div {
+    margin: 0 30px;
+    margin-top: 70px;
+    width: auto;   
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    }
+    .count-down-div h1 {
+        font-size: 1.7rem;
+        font-weight: 900;
+    }
+    #countdown{
+        font-size: 8rem;
+    }
+    #start-countdown {
+        width: 80%;
+    }
+    
+}
